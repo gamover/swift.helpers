@@ -5,4 +5,9 @@
  * Time: 16:40
  */
 
-exports.HelperManager = require('./lib/helperManager').HelperManager;
+var HelperManager = require('./lib/helperManager').HelperManager;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+exports.HelperManager = HelperManager;
+exports.helperManager = new HelperManager();
